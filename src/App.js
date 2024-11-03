@@ -102,7 +102,7 @@ const App = () => {
           <Button label="x" onClick={handleTimesNumbers}/>
           <Button label="/" onClick={handleDividedNumbers}/>
           <Button label="c" onClick={handleOnClear}/>
-          <Button label="." />
+          <Button label="." onClick={() => handleAddNumber('.')}/>
         </Row>
         <Row>
           <Button label="7" onClick={() => handleAddNumber('7')}/>
